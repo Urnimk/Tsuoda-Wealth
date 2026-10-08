@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "挫蛋財富",
+    "slug": "Tsuoda-Wealth",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.example.assetdualview"
+    },
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-sharing"
+    ]
+  }
+}

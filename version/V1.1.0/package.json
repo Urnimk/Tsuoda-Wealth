@@ -1,0 +1,42 @@
+{
+  "name": "asset-dual-view",
+  "version": "1.1.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "typecheck": "tsc --noEmit",
+    "check": "expo install --check",
+    "test": "node --test tests/*.test.cjs",
+    "check:offline": "node scripts/check-compatibility.cjs",
+    "export:mobile": "expo export --platform android --platform ios"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "7.20.0",
+    "@react-navigation/native": "7.5.0",
+    "@react-navigation/native-stack": "7.20.0",
+    "expo": "^57.0.27",
+    "expo-document-picker": "57.0.3",
+    "expo-file-system": "57.0.7",
+    "expo-linear-gradient": "57.0.2",
+    "expo-sharing": "57.0.22",
+    "expo-sqlite": "57.0.4",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-gifted-charts": "1.4.81",
+    "react-native-safe-area-context": "5.7.0",
+    "react-native-screens": "4.26.2",
+    "react-native-svg": "15.15.4"
+  },
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.0",
+    "@types/react": "19.2.18",
+    "semver": "7.8.5",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

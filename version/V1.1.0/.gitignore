@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+dist/
+build-verified/
+*.db
+*.db-wal
+*.db-shm
+assets-backup-*.json
